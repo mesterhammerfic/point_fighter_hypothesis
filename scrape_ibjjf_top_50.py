@@ -6,4 +6,7 @@ Created on Thu Oct 10 14:46:26 2019
 @author: root
 """
 
-import selenium
+from selenium import webdriver
+
+browser = webdriver.Firefox()
+browser.get('https://bjjheroes.com/a-z-bjj-fighters-list')
